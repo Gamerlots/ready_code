@@ -9,7 +9,7 @@ This function closes multiples files at the same time.
 
 #### Example
 
-```
+```python
 file_1 = open("file_1.txt")
 file_2 = open("file_2.txt", "a")
 file_3 = open("file_3.txt")
@@ -29,7 +29,7 @@ This function gets the keys, of a dictionary, with a particular value.
 
 #### Example
 
-```
+```python
 available_items = {"Apple": 4.99, "Banana": 4.99, "Cabbage": 12.99, "Dates": 9.99, "Eggplants": 10.99}
 
 five_dollar_items = get_keys(available_items, 4.99)
@@ -41,7 +41,7 @@ This function finds if a give files exists within a folder.
 
 #### Example
 
-```
+```python
 code_exists = file_exists("readyCode.py")
 
 print(code_exists)
