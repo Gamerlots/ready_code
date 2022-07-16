@@ -42,7 +42,7 @@ This function finds if a give files exists within a folder.
 #### Example
 
 ```python
-code_exists = file_exists("readyCode.py")
+code_exists = file_exists("ready_code.py")
 
 print(code_exists)
 ```
